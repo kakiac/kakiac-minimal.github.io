@@ -21,8 +21,7 @@ twitter_username: kakiac
 github_username: kakiac
 minimal_mistakes_skin: default
 search: true
-header:
-  image: /assets/images/header1.jpg
+
 
 # Build settings
 markdown: kramdown
@@ -88,6 +87,7 @@ footer:
       url: "https://instagram.com/kakia.c"
 
 defaults:
+   
   # _posts
   - scope:
       path: ""
@@ -102,12 +102,12 @@ defaults:
   # _pages
   - scope:
       path: "_pages"
-      type: pages
-      
-
+      type: pages   
     values:
       layout: single
       author_profile: true
+      header:
+         image: /assets/images/header1.jpg
 
 category_archive:
   type: liquid
