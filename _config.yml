@@ -21,6 +21,8 @@ twitter_username: kakiac
 github_username: kakiac
 minimal_mistakes_skin: default
 search: true
+header:
+  image: /assets/images/header1.jpg
 
 # Build settings
 markdown: kramdown
@@ -101,8 +103,7 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
-      header:
-        image: /assets/images/header1.jpg
+      
 
     values:
       layout: single
