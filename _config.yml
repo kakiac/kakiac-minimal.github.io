@@ -101,6 +101,9 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
+      header:
+        image: /assets/images/header1.jpg
+
     values:
       layout: single
       author_profile: true
